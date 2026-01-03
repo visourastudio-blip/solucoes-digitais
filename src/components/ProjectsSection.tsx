@@ -45,17 +45,18 @@ export const ProjectsSection = () => {
                   onClick={() => setSelectedProject(project)}
                   className="group cursor-pointer"
                 >
-                  <div className="relative overflow-hidden rounded-xl mb-6">
+                  <div className="relative overflow-hidden rounded-xl mb-6 bg-secondary/50 p-8 flex items-center justify-center">
                     <motion.div
                       whileHover={{ scale: 1.03 }}
                       transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+                      className="relative"
                     >
                       <img
                         src={project.image}
                         alt={project.title}
-                        className="w-full aspect-video object-cover"
+                        className="max-h-[400px] w-auto object-contain rounded-lg shadow-2xl"
                       />
-                      <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-500 flex items-center justify-center">
+                      <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-500 rounded-lg flex items-center justify-center">
                         <motion.div
                           initial={{ opacity: 0, scale: 0.8 }}
                           whileHover={{ opacity: 1, scale: 1 }}
