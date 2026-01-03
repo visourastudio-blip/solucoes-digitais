@@ -11,10 +11,10 @@ export const HeroSection = () => {
           transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight mb-6">
-            <span className="text-foreground">Nicolas</span>
+            <span className="text-foreground">Visoura Studio</span>
           </h1>
           <p className="text-muted-foreground font-medium text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-8">
-              Fundador & Desenvolvedor de Soluções Digitais
+              Soluções Digitais para Negócios Locais
           </p>
         </motion.div>
 
