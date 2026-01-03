@@ -45,16 +45,16 @@ export const ProjectsSection = () => {
                   onClick={() => setSelectedProject(project)}
                   className="group cursor-pointer"
                 >
-                  <div className="relative overflow-hidden rounded-xl mb-6 bg-secondary/50 p-8 flex items-center justify-center">
+                  <div className="relative overflow-hidden rounded-xl mb-6 bg-secondary/50 px-12 sm:px-20 md:px-32 py-0 flex items-center justify-center">
                     <motion.div
                       whileHover={{ scale: 1.03 }}
                       transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
-                      className="relative"
+                      className="relative w-full flex justify-center"
                     >
                       <img
                         src={project.image}
                         alt={project.title}
-                        className="max-h-[400px] w-auto object-contain rounded-lg shadow-2xl"
+                        className="h-auto w-full max-w-xs sm:max-w-sm md:max-w-md object-contain rounded-lg shadow-2xl"
                       />
                       <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-500 rounded-lg flex items-center justify-center">
                         <motion.div
