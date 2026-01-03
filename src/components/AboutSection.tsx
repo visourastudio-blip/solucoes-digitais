@@ -12,7 +12,7 @@ export const AboutSection = () => {
 
         <ScrollReveal delay={0.1}>
           <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed mb-6">
-            Ajudo negócios locais a venderem mais e se organizarem melhor através de sistemas digitais simples, funcionais e sem taxas abusivas.
+            Sou o Nicolas, responsável pela Visoura Studio, ajudo negócios locais a venderem mais e se organizarem melhor através de sistemas digitais simples, funcionais e sem taxas abusivas.
           </p>
         </ScrollReveal>
 

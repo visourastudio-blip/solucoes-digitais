@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logoVisoura from "@/assets/logo-visoura.png";
 
 const navLinks = [
   { label: "Sobre", href: "#sobre" },
@@ -28,8 +29,8 @@ export const Header = () => {
       }`}
     >
       <nav className="container flex items-center justify-between h-16 sm:h-20 px-6 lg:px-8">
-        <a href="#" className="text-lg font-bold text-foreground">
-          Nicolas
+        <a href="#" className="flex items-center gap-2">
+          <img src={logoVisoura} alt="Visoura Studio" className="h-8 sm:h-10 w-auto" />
         </a>
 
         {/* Desktop Navigation */}
